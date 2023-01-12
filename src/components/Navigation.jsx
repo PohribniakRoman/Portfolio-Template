@@ -3,7 +3,7 @@ import {HiArrowRight} from "react-icons/hi";
 export default function Navigation() {
     return(
         <nav className="navigation">
-            <nav className="navigation__container">
+            <nav className="navigation__container" data-aos="flip-up">
                 <nav className="navigation__menu">
                     <nav className="navigation__logo">portfolio</nav>
                     <nav className="navigation__separator"></nav>

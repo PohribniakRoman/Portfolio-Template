@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Banner from './components/Banner';
 import Navigation from './components/Navigation';
+import Skills from './components/Skills';
 import Works from './components/Works';
 //styles
 import "./styles/index.scss"
@@ -12,6 +13,7 @@ root.render(
     <Navigation/>
     <Banner/>
     <Works/>
+    <Skills/>
   </React.StrictMode>
 );
 

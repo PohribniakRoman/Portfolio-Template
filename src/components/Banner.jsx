@@ -1,7 +1,7 @@
 export default function Banner(){
     return(
         <section className="section banner">
-            <div className="banner__container">
+            <div className="banner__container" data-aos="flip-up">
                 <div className="banner__content">
                     <div className="title">Welcome to my page!</div>
                     <div className="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ipsa voluptatem tenetur quia natus omnis mollitia, dolorem iure impedit consequatur veniam aliquam at animi eos perspiciatis! Quidem repudiandae labore debitis?</div>
