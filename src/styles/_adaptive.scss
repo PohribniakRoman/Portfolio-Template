@@ -1,0 +1,88 @@
+@media (max-width:1400px) {
+    .banner__content{
+        width: 50%;
+    }
+    .banner__bg{
+        width: 40%;
+    }
+    .works__gallery{
+        overflow: hidden;
+    }
+}
+
+@media (max-width:1100px) {
+    .banner__container{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner__content{
+        width: 80%;
+    }
+    .banner__bg{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        margin-bottom: 50px;
+        &--img{
+            width:450px;
+        }
+    }
+}
+
+@media (max-width:850px) {
+    .works__gallery--item{
+        width: 500px;
+        height: 281px;
+    }
+}
+@media (max-width:600px) {
+    .works__gallery--description{
+        font-size: 12px !important;
+        line-height: 16px !important;
+    }
+    .works__gallery--header{
+        font-size: 25px !important;
+        margin: 5px;
+    }
+    .navigation{
+        &__container{
+            justify-content: center;
+        }
+        &__menu{
+            &--item{
+                display: none;
+            }
+        }
+    }
+    .banner{
+        &__container{
+            flex-direction: column;
+        }
+        &__content{
+            width: 90%;
+        }
+        &__bg{
+            display: none;
+        }
+        &__hire{
+            margin-right: 15px;
+            width: auto;
+        }
+    }
+    .section{
+        min-height: 650px;
+    }
+    .works{
+        &__gallery{
+            &--item{
+                width: 330px;
+                height: 185px;
+            }
+        }
+    }
+    .skills__gallery{
+        grid-template-columns: 1fr;
+    }
+}
