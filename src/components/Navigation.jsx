@@ -1,5 +1,9 @@
 import {HiArrowRight} from "react-icons/hi";
 
+function ScrollToElement(tag) {
+    document.querySelector(`.${tag}`).scrollIntoView({behavior:"smooth",block:"center"})
+}
+
 export default function Navigation() {
     return(
         <nav className="navigation">
@@ -7,11 +11,11 @@ export default function Navigation() {
                 <nav className="navigation__menu">
                     <nav className="navigation__logo">portfolio</nav>
                     <nav className="navigation__separator"></nav>
-                    <nav className="navigation__menu--item">Bio</nav>
-                    <nav className="navigation__menu--item">Skills</nav>
-                    <nav className="navigation__menu--item">Past Work</nav>
+                    <nav className="navigation__menu--item" onClick={()=>ScrollToElement("banner")}>Bio</nav>
+                    <nav className="navigation__menu--item" onClick={()=>ScrollToElement("skills")}>Skills</nav>
+                    <nav className="navigation__menu--item" onClick={()=>ScrollToElement("works")}>Past Work</nav>
                 </nav>
-                <nav className="navigation__scroller">
+                <nav className="navigation__scroller"  onClick={()=>ScrollToElement("hire")}>
                     <b>Hire me</b>
                     <HiArrowRight/>
                 </nav>
