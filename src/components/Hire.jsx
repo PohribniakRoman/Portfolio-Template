@@ -1,3 +1,5 @@
+import emailjs from '@emailjs/browser';
+
 export default function Hire() {
     return(
         <section className="section hire">
@@ -21,11 +23,24 @@ export default function Hire() {
                 </div>
             </div>
             <div className="hire__content">
-                <form className="hire__form">
+                <form className="hire__form" onSubmit={(e)=>{
+                    e.preventDefault();
+                    emailjs.sendForm('service_c6mlb0k', 'template_jm6vvlk', e.target, 'Z2k90g_BxOY9_S_ts')
+                    .then((result) => {
+                        console.log(result.text);
+                        alert("Message has been sended");
+                    }, (error) => {
+                        console.log(error.text);
+                        alert("Error happend try later");
+                    });
+                    e.target.name.value = "";
+                    e.target.email.value = "";
+                    e.target.message.value = "";
+                }}>
                     <h1 className="hire__form--title title">Hire me</h1>
                     <h3 className="subtitle">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium delectus expedita magnam.</h3>
                     <h3 className="subtitle">Name</h3>
-                    <input type="text" name="text" autoComplete="off" required/>
+                    <input type="text" name="name" autoComplete="off" required/>
                     <h3 className="subtitle">Email</h3>
                     <input type="email" name="email" autoComplete="off" required/>
                     <h3 className="subtitle">Message</h3>
