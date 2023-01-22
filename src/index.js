@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Banner from './components/Banner';
+import Footer from './components/Footer';
 import Hire from './components/Hire';
 import Navigation from './components/Navigation';
 import Skills from './components/Skills';
@@ -16,6 +17,7 @@ root.render(
     <Works/>
     <Skills/>
     <Hire/>
+    <Footer/>
   </React.StrictMode>
 );
 

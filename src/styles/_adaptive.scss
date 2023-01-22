@@ -8,10 +8,17 @@
     .works__gallery{
         overflow: hidden;
     }
+    .hire__banner{
+        width: 50%;
+    }
+    .hire__content{
+        width: 35%;
+    }
 }
 
 @media (max-width:1100px) {
     .banner__container{
+        text-align: center;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
@@ -36,8 +43,47 @@
         width: 500px;
         height: 281px;
     }
+    .hire__banner{
+        display: none;
+    }
+    .hire__content{
+        width: 60%;
+    }
+    .hire__form{
+        text-align: center;
+    }
 }
 @media (max-width:600px) {
+    .banner__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;   
+    }
+    .banner__hire{
+        margin: 20px 0;
+    }
+    .banner__works{
+        display: none;
+    }
+    .banner__works--scroll{
+        position: absolute;
+        bottom: 15%;
+        display: block;
+        width: 45px;
+        height: 45px;
+        border: 1px solid lightgray;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        & svg{
+            font-size: 18px !important;
+            fill: lightgray;
+        }
+    }
+
     .works__gallery--description{
         font-size: 12px !important;
         line-height: 16px !important;
@@ -62,13 +108,10 @@
         }
         &__content{
             width: 90%;
+            text-align: center;
         }
         &__bg{
             display: none;
-        }
-        &__hire{
-            margin-right: 15px;
-            width: auto;
         }
     }
     .section{

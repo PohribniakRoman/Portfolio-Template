@@ -57,9 +57,6 @@
         & .title{
             margin-bottom: 0;
         }
-        & .subtitle{
-            width: 80%;
-        }
 
         & input {
             outline: none;
@@ -77,6 +74,7 @@
             padding: 12px;
             color: #ffffff;
             cursor: pointer;
+            border: none;
             background-color: #178f7a;
         }
         & textarea{
