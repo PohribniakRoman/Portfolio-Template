@@ -5,6 +5,20 @@ export default function Hire() {
                 <div className="hire__banner--container">
                     <div className="hire__banner--bg"></div>
                 </div>
+                <div className="hire__banner--info">
+                    <div className="hire__banner--info-container">
+                        <h1 className="hire__banner--info-title">Adress</h1>
+                        <h3 className="hire__banner--info-subtitle">St. Sechenova, 7A, Kyiv, 02000</h3>
+                    </div>
+                    <div className="hire__banner--info-container">
+                        <h1 className="hire__banner--info-title">Phone</h1>
+                        <h3 className="hire__banner--info-subtitle">+380 989 215 203</h3>
+                    </div>
+                    <div className="hire__banner--info-container">
+                        <h1 className="hire__banner--info-title">email</h1>
+                        <h3 className="hire__banner--info-email">roman.pohribniak@gmail.com</h3>
+                    </div>
+                </div>
             </div>
             <div className="hire__content">
                 <form className="hire__form">

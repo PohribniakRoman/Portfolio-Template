@@ -5,6 +5,37 @@
     &__banner{
         width: 60%;
         height: 750px;
+        position: relative;
+        &--info{
+            width: 400px;
+            height: 100px;
+            background-color: #1d2430;
+            padding: 10px;
+            position: absolute;
+            bottom: 30px;
+            left: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            &-container{
+                width: 180px;
+                margin-right: 10px;
+                cursor: context-menu;
+            }
+            &-title{
+                user-select: none;
+                text-transform: uppercase;
+                font-weight: bold !important;
+                font-size: 14px !important;
+                margin: 5px 0;
+            }
+            &-subtitle{
+                font-size: 12px !important;
+                color: lightgray;
+            }
+            &-email{
+                color: #178f7a;
+            }
+        }
         &--bg{
             background: #f8f9fa;
             background-image: url(../images/maps.png);
