@@ -4,9 +4,11 @@ export default function Hire() {
     return(
         <section className="section hire">
             <div className="hire__banner">
+                <a href="https://goo.gl/maps/sdaaz6qS1r4iChFB6" rel="noreferrer" target={"_blank"}>
                 <div className="hire__banner--container">
                     <div className="hire__banner--bg"></div>
                 </div>
+                </a>
                 <div className="hire__banner--info">
                     <div className="hire__banner--info-container">
                         <h1 className="hire__banner--info-title">Adress</h1>

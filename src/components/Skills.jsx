@@ -9,21 +9,23 @@ export default function Skills() {
                     <HiChip/>
                 </div>
                 <h1 className="title">Skills</h1>
-                <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, quia placeat ducimus explicabo, corporis, odio debitis illum laudantium inventore obcaecati voluptatibus. Ipsa molestias est consequatur, omnis cumque labore saepe ipsum?</p>
+                <p className="subtitle">
+                Knowledge and technologies that I own or have used before
+                </p>
             </div>
             <div className="skills__gallery">
                 <SkillsSlot title={"HTML / Pug"}/>
                 <SkillsSlot title={"CSS / SCSS / SASS"}/>
-                <SkillsSlot title={"JavaScript"}/>
+                <SkillsSlot title={"JavaScript / ES6"}/>
                 <SkillsSlot title={"MongoDB"}/>
-                <SkillsSlot title={"React.js"}/>
+                <SkillsSlot title={"React.js / Redux-Saga"}/>
                 <SkillsSlot title={"Bootstrap / Material-UI"}/>
                 <SkillsSlot title={"Node.js / Express.js"}/>
                 <SkillsSlot title={"TypeScript"}/>
                 <SkillsSlot title={"Nest.js"}/>
                 <SkillsSlot title={"Flex / Grid"}/>
                 <SkillsSlot title={"Figma / Photoshop"}/>
-                <SkillsSlot title={"C++"}/>
+                <SkillsSlot title={"C++ / C#"}/>
             </div>
         </section>
     )

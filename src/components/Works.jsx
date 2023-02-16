@@ -9,13 +9,13 @@ export default function Works() {
                     <HiCode/>
                 </div>
                 <h1 className="title">Apps I've Built</h1>
-                <p className="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ipsa voluptatem tenetur quia natus omnis mollitia, dolorem iure impedit consequatur veniam aliquam at animi eos perspiciatis! Quidem repudiandae labore debitis?</p>
+                <p className="subtitle">A few layouts I created a year ago, I'm currently working on projects that require more writing logic than styles.</p>
             </div>
             <div className="works__gallery">
-                <WorksSlot link={"https://github.com/PohribniakRoman"} fade="fade-right" title={"MERN.js"} header={"Chat App"} text={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus maxime quasi in eveniet, ea quos consectetur ducimus? Natus, officia at?"}/>
-                <WorksSlot link={"https://github.com/PohribniakRoman"} fade="fade-left" title={"MERN.js"} header={"Chat App"} text={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus maxime quasi in eveniet, ea quos consectetur ducimus? Natus, officia at?"}/>
-                <WorksSlot link={"https://github.com/PohribniakRoman"} fade="fade-up-right" title={"MERN.js"} header={"Chat App"} text={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus maxime quasi in eveniet, ea quos consectetur ducimus? Natus, officia at?"}/>
-                <WorksSlot link={"https://github.com/PohribniakRoman"} fade="fade-up-left" title={"MERN.js"} header={"Chat App"} text={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus maxime quasi in eveniet, ea quos consectetur ducimus? Natus, officia at?"}/>
+                <WorksSlot url={0} link={"https://pohribniakroman.github.io/Portfolio_webpack"} fade="fade-right" title={"Webpack"} header={"Portfolio Layout"} text={"Portfolio "}/>
+                <WorksSlot url={1} link={"https://pohribniakroman.github.io/Travel-Agancy"} fade="fade-left" title={"React.js"} header={"Landing Page"} text={"HTML / SCSS / JS | React"}/>
+                <WorksSlot url={2} link={"https://pohribniakroman.github.io/Nature"} fade="fade-up-right" title={"React.js"} header={"Landing Page"} text={"HTML / SCSS / JS | React"}/>
+                <WorksSlot url={3} link={"https://pohribniakroman.github.io/Blog"} fade="fade-up-left" title={"React.js"} header={"Blog"} text={"HTML / SCSS / JS | React"}/>
             </div>
         </section>
     )
