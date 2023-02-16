@@ -40,7 +40,7 @@ export default function Hire() {
                     e.target.message.value = "";
                 }}>
                     <h1 className="hire__form--title title">Hire me</h1>
-                    <h3 className="subtitle">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium delectus expedita magnam.</h3>
+                    <h3 className="subtitle">Contact me here, the form below will be sent to my Gmail account.</h3>
                     <h3 className="subtitle">Name</h3>
                     <input type="text" name="name" autoComplete="off" required/>
                     <h3 className="subtitle">Email</h3>
